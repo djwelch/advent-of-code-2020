@@ -5,3 +5,4 @@ project(advent-of-code)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c17 -Weverything -Wno-vla")
 add_executable(day-01 src/day-01.c)
+add_executable(day-02 src/day-02.c)
